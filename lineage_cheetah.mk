@@ -19,6 +19,18 @@ PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 7 Pro
 PRODUCT_NAME := lineage_cheetah
 
+# Addons
+TARGET_HAS_UDFPS := true
+
+# Gms 
+WITH_GMS := true
+
+# Ship Google Camera 
+TARGET_PREBUILT_GOOGLE_CAMERA := true
+
+# Set Pixel launcher as default launcher
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 3120
 TARGET_SCREEN_WIDTH := 1440
