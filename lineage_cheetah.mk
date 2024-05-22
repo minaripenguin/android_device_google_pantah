@@ -19,6 +19,8 @@ PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 7 Pro
 PRODUCT_NAME := lineage_cheetah
 
+RISING_MAINTAINER=minaripenguin
+
 # Addons
 TARGET_HAS_UDFPS := true
 
