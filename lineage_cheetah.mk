@@ -43,4 +43,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 BUILD_FINGERPRINT := google/cheetah/cheetah:14/AP2A.240905.003/12231197:user/release-keys
 
-$(call inherit-product, vendor/google/cheetah/cheetah-vendor.mk)
+$(call inherit-product-if-exists, vendor/google/cheetah/cheetah-vendor.mk)
