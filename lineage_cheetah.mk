@@ -32,6 +32,8 @@ TARGET_PREBUILT_GOOGLE_CAMERA := true
 
 # Set Pixel launcher as default launcher
 TARGET_DEFAULT_PIXEL_LAUNCHER := true
+# Ship lawnchair
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 3120
