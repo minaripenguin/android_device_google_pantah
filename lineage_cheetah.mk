@@ -30,4 +30,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildFingerprint=google/cheetah/cheetah:15/AP3A.241005.015/12366759:user/release-keys \
     DeviceProduct=$(DEVICE_CODENAME)
 
-$(call inherit-product, $(VENDOR_PATH)/$(DEVICE_CODENAME)-vendor.mk)
+$(call inherit-product-if-exists, $(VENDOR_PATH)/$(DEVICE_CODENAME)-vendor.mk)
