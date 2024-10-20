@@ -25,6 +25,11 @@ PRODUCT_NAME := lineage_$(DEVICE_CODENAME)
 TARGET_SCREEN_HEIGHT := 3120
 TARGET_SCREEN_WIDTH := 1440
 
+# Addons
+TARGET_HAS_UDFPS := true
+
+RISING_MAINTAINER=minaripenguin
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="cheetah-user 15 AP3A.241005.015 12366759 release-keys" \
     BuildFingerprint=google/cheetah/cheetah:15/AP3A.241005.015/12366759:user/release-keys \
