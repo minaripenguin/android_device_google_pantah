@@ -30,14 +30,15 @@ TARGET_HAS_UDFPS := true
 
 WITH_GMS := true
 
+RISING_MAINTAINER=minaripenguin
+
 TARGET_PREBUILT_GOOGLE_CAMERA := true
 TARGET_DEFAULT_PIXEL_LAUNCHER := true
-
-RISING_MAINTAINER=minaripenguin
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="cheetah-user 15 AP4A.241205.013 12621605 release-keys" \
     BuildFingerprint=google/cheetah/cheetah:15/AP4A.241205.013/12621605:user/release-keys \
-    DeviceProduct=$(DEVICE_CODENAME)
+    DeviceProduct=$(DEVICE_CODENAME) \
+    RisingMaintainer=minaripenguin
 
 $(call inherit-product-if-exists, $(VENDOR_PATH)/$(DEVICE_CODENAME)-vendor.mk)
