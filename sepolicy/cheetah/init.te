@@ -1,0 +1,2 @@
+allow init proc_drop_caches:file rw_file_perms;
+
